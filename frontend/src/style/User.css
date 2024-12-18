@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .user-form{
+    margin-top: 10rem;
+  }
+  .card {
+    max-width: 400px;
+    margin: auto;
+  }
+  input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
